@@ -1,0 +1,19 @@
+:root{
+    --blue: #0D3b66;
+}
+.nav{
+    background: var(--blue);
+    width: 100vh;
+    padding: 0.7rem;
+    color: #fff;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+}
+.nav-links a{
+    color: #fff;
+}
